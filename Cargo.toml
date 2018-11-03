@@ -14,5 +14,5 @@ path = "libs/middle"
 
 [features]
 default = []
-invariant-checking = ["common/invariant-checking", "middle/invariant-checking"]
-logging = ["common/logging", "middle/logging"]
+invariant-checking = ["common/invariant-checking"]
+logging = ["common/logging"]
