@@ -1,0 +1,1 @@
+An example of [features](https://doc.rust-lang.org/cargo/reference/manifest.html#the-features-section) **not** propagating across multiple crates.

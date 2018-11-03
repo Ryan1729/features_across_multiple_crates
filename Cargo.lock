@@ -1,0 +1,19 @@
+[[package]]
+name = "common"
+version = "0.1.0"
+
+[[package]]
+name = "features_across_multiple_crates"
+version = "0.1.0"
+dependencies = [
+ "common 0.1.0",
+ "middle 0.1.0",
+]
+
+[[package]]
+name = "middle"
+version = "0.1.0"
+dependencies = [
+ "common 0.1.0",
+]
+

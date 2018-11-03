@@ -1,0 +1,18 @@
+[package]
+name = "features_across_multiple_crates"
+version = "0.1.0"
+authors = ["Ryan1729 <Ryan1729@gmail.com>"]
+edition = "2018"
+
+[dependencies]
+
+[dependencies.common]
+path = "libs/common"
+
+[dependencies.middle]
+path = "libs/middle"
+
+[features]
+default = []
+invariant-checking = []
+logging = []
